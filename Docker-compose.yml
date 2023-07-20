@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app: 
+    image: victoremannueluna/reactapp
+    container_name: reactapp
+    ports:
+      - 3000:3000
+    restart: unless-stopped
